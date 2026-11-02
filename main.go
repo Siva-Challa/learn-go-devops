@@ -98,7 +98,7 @@ func main() {
 			}
 		} else {
 			if !isValidName {
-				fmt.Println("Your first name or last name is too short")
+				fmt.Println("Your first name or last name is toooo short")
 			}
 			if !isValidEmail {
 				fmt.Println("Your email address is missing @sign")
