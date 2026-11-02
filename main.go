@@ -98,7 +98,7 @@ func main() {
 			}
 		} else {
 			if !isValidName {
-				fmt.Println("Your first name or last name is too short")
+				fmt.Println("Your first name or last name is toooo short")
 			}
 			if !isValidEmail {
 				fmt.Println("Your email address is missing @sign")
@@ -111,5 +111,22 @@ func main() {
 		}
 
 	}
+
+	//Just try switch
+	// switch city {
+
+	// case "India":
+	// 	//booking logic
+
+	// case "USA", "Canada":
+	// 	//booking logic for both USA and Canada
+
+	// case "Singapore":
+	// 	//booking logic
+
+	// default:
+	// 	fmt.Println("No valid city choosen")
+
+	// }
 
 }
